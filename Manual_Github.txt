@@ -9,7 +9,17 @@ cd git_folder --> we need to set folder to be able push there our git versions
 
 git --help
 
-by bash:
+update file by bash:
 cd git_folder for folder that You press before git init-->git clone 'website' ; You will match then with Your github
 git status - You check on which branch are You already
+git add .
+git commit -m "message about commiting"
 git push - to publish local commints/changing to other branches
+If that doesnt work to update files then:
+git push --force
+if is problem with "indel.lock" file then
+cd .git
+touch index.lock
+rm index.lock <-- delete index.lock
+
+
