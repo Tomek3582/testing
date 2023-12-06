@@ -6,3 +6,10 @@ cd git_folder --> we need to set folder to be able push there our git versions
  git commit -m "message about commiting"
  git status --> check status about task to do
  git push  --> push changes make in folder in computer to github
+
+git --help
+
+by bash:
+cd git_folder for folder that You press before git init-->git clone 'website' ; You will match then with Your github
+git status - You check on which branch are You already
+git push - to publish local commints/changing to other branches
