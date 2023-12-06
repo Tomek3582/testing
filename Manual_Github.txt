@@ -22,4 +22,8 @@ cd .git
 touch index.lock
 rm index.lock <-- delete index.lock
 
+#merge changes/ upload main/master/origin folder to branch
+git checkout <name of branch> <-- now we are inside branch that we put into code
+git merge main\master <-- pull change from main\master branch
+
 
