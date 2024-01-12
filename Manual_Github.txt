@@ -1,6 +1,8 @@
 Command by git bash:
 cd git_folder --> we need to set folder to be able push there our git versions
  git init --> we init that folder as folder for git
+bitbucket -- git clone -c http.sslVerify=false https://tomasz.laskowski@dev.stat/stash/scm/fd/bik-parser.git
+
  git clone 'copy path of https adres from git repository code' --> then we match our folder with gith repository
  git add . --> add all of new created files from our computer to our github repository
  git commit -m "message about commiting"
